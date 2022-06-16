@@ -1,0 +1,75 @@
+.main {
+    min-width: 400px;
+    display: flex;
+    justify-content: center; 
+}
+.list {
+    display: flex;
+    /* justify-content: center; */
+    text-align: left;
+    
+    
+    
+    
+    
+}
+.list > input {
+    width: 32px;
+    height: 32px;
+    margin-top: 9px;
+    
+    border: none;
+    background-color: white;
+    
+}
+.list > input:checked{
+    background-color: greenyellow;
+    
+}
+/* .list > input {
+    margin: px 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;  
+} */
+/* .list > input:checked {
+    background-color: purple;
+
+} */
+
+.list > li {
+    
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: white;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.closeIcon {
+    height: 5px;
+    width: 5px;
+    margin-top: 10px;
+    background-color: rgb(250, 97, 97);
+}
+@media  (max-width:430px) {
+    
+    .main {
+        width: 360px;
+    }
+    .list > li {
+        width: 250px;
+        
+
+    }
+    
+}
